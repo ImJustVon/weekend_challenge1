@@ -22,7 +22,7 @@ $(document).ready(function(){
       //console.log(totalMonthlySalary);
 
       $('#total').empty();
-      $('#total').append('$' + totalMonthlySalary);
+      $('#total').append('$' + Math.round(totalMonthlySalary));
       //emptys the #total element and updates to the new total
     })
 
