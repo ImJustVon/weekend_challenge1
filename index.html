@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Employee App</title>
+        <link rel="stylesheet" href="stylesheet.css" />
+        <script src="jquery-3.1.0.js"></script>
+        <script src="app.js"></script>
+    </head>
+
+    <body>
+        <div id="form">
+
+
+            <form id="employee">
+                <!-- //Takes in the first name -->
+                <lable for="employeeFirstName">First Name: </lable>
+                <input type="text" id="employeeFirstName" name="employeeFirstName" />
+                <!-- //takes in the last name -->
+                <lable for="employeeLastName">Last Name: </lable>
+                <input type="text" id="employeeLastName" name="employeeLastName" />
+                <!-- //takes in their id number -->
+                <lable for="employeeId">Employee ID Number: </lable>
+                <input type="number" id="employeeId" name="employeeId" />
+                <!-- //takes in employee salary -->
+                <lable for="employeeAnnualSalary">Annual Salary: </lable>
+                <input type="number" id="employeeAnnualSalary" name="employeeAnnualSalary" />
+                <!-- //takes in employee posistion -->
+                <lable for="employeeJob">Job Title: </lable>
+                <input type="text" id="employeeJob" name="employeeJob" />
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </div>
+        <div class="employeeList">
+            <h2>Employee List</h2>
+            <table id="employees">
+
+                <tr>
+                    <td>
+                        First Name
+                    </td>
+                    <td>
+                        Last Name
+                    </td>
+                    <td>
+                        Employee ID
+                    </td>
+                    <td>
+                        Title
+                    </td>
+                    <td>
+                        Annual Salary
+                    </td>
+                </tr>
+
+            </table>
+            <h2>Monthly Salary Expenditures: <span id="total"></span></h2>
+        </div>
+    </body>
+
+</html>
