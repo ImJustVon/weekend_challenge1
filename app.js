@@ -23,7 +23,7 @@ $('#total').append('$' + totalMonthlySalary);
       //console.log(totalMonthlySalary);
 
       $('#total').empty();
-      $('#total').append('$' + Math.round(totalMonthlySalary));
+      $('#total').append('$' + totalMonthlySalary.toFixed(2));
       //emptys the #total element and updates to the new total
     })
 
