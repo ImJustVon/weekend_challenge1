@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var totalMonthlySalary = 0;
 //Takes in the form data.
+$('#total').append('$' + totalMonthlySalary);
   $('#employee').on('submit', function(event){
 
       event.preventDefault();
